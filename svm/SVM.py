@@ -8,7 +8,7 @@ y = iris.target
 
 from sklearn import svm
 
-clf = svm.SVC(kernel="rbf" , C = 10)
+clf = svm.SVC(kernel="rbf" , C = 100)
 clf.fit(x,y)
 
 pre = clf.predict(x)
